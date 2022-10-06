@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import classes from "./Main.module.scss";
+import classes from "../styles/Main/Main.module.scss";
 
 const Main: FC = () => {
     return (

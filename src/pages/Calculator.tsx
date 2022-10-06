@@ -1,10 +1,8 @@
 import React, {FC, useState} from 'react';
-import classes from "./Calculator.module.scss";
+import classes from "../styles/Calculator/Calculator.module.scss";
 import CalcButton from "../components/UI/CalcButton/CalcButton";
 import classNames from "classnames";
 import {
-    calcLogic,
-    overwriting,
     inputNum,
     inputSign,
     clearOutput,
